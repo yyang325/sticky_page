@@ -54,11 +54,28 @@
     </nav>
 
     <!-- Begin page content -->
-    <div class="container">
+    <div class="container" style="background-color: lightblue">
       <div class="page-header">
-        <h1>Sticky footer with fixed navbar</h1>
+        <h2>Hello User, this is your watch list</h2>
       </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
+      
+      <div class="container-fluid" style="background-color: grey">
+        <div class="row" style="background-color: red">
+          <div class="col-md-4" style="background-color: green">
+            <div class="input-group col-md-12">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Search</button>
+              </span>
+            </div>
+  
+            <div class="col-md-12">
+              
+            </div>
+          </div>
+          <div class="col-md-8" style="background-color: blue"></div>
+        </div>
+      </div>
     </div>
 
     <footer class="footer">
@@ -66,7 +83,6 @@
         <p class="text-muted">Place sticky footer content here.</p>
       </div>
     </footer>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
